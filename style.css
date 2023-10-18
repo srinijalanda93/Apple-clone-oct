@@ -1,63 +1,88 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
-#nav-bar1{
-    background-color:#303030;  
+#nav-bar1 {
+  background-color: #303030;
 }
-#nav-bar1>ul{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style-type:none;
-    font-size:15px !important;
+#nav-bar1 > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  font-size: 15px !important;
 }
-#nav-bar1 ul>li{
-    padding-inline:20px;
-    font-size:15px;
+#nav-bar1 ul > li {
+  padding-inline: 20px;
+  font-size: 15px;
 }
-#nav-bar2{
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
+#nav-bar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-#nav-bar2 div{
-    padding-inline:15px;
-    
+#nav-bar2 div {
+  padding-inline: 15px;
 }
-#nav-bar2 div>img{
-    display:flex;
-    align-items: center;
-    padding-inline:10px;
+#nav-bar2 div > img {
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
 }
-#nav-bar2 div>p{
-    margin:0px;
+#nav-bar2 div > p {
+  margin: 0px;
 }
 /* hero section intro */
-.hero-intro{
-    display:flex;
-    flex-direction:column;
-    align-items: center;
+/* hero-intro1 which the section-2 contains differnt background color */
+.hero-intro,
+.hero-intro1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.hero-text>p{
-    text-align: center;
-    margin:0px !important;
+.hero-intro1 {
+  background: #000000;
+}
+.hero-text > p {
+  text-align: center;
+  margin: 0px !important;
+}
+.gradient-text,
+.gradient-text1 {
+  /* -webkit-background-clip: text;
+    color: transparent;
+    display: inline; */
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -3px;
 }
 .gradient-text {
-   background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
-   -webkit-background-clip: text;
-    color: transparent;
-    display: inline;
-    font-size:48px;
-    font-weight:700;
-    letter-spacing: -3px;
+  background: linear-gradient(
+    90deg,
+    #2ca2b4 0%,
+    #5598de 24%,
+    #7f87ff 45%,
+    #f65aad 76%,
+    #ec3d43 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline;
 }
-.hero-text div>button{
-    border:none;
-    background-color: #0071E3;
-    color:white;
-    border-radius:10px;
-    width:50px !important;
-    height:24px;
-    padding:0px !important;
-    
+.gradient-text1 {
+  background: linear-gradient(180deg, #ffb6ff 0%, #b344ff 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline;
+}
+.hero-text div > button {
+  border: none;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 10px;
+  width: 50px !important;
+  height: 24px;
+  padding: 0px !important;
+}
+.hero-text div > button:hover {
+  box-shadow: 0px 0px 5px #0071e3;
 }
