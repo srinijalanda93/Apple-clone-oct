@@ -99,7 +99,7 @@ font-family: 'Poppins', sans-serif;
   padding: 0px !important;
 }
 .hero-text div > button:hover {
-  box-shadow: 0px 0px 5px #0071e3;
+  box-shadow: 0px 0px 15px #0071e3;
 }
 .hero-intro2 > .left-content > .hero-text > p > span {
 border:2px solid black;
