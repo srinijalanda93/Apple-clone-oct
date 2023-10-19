@@ -20,7 +20,8 @@ font-family: 'Poppins', sans-serif;
   font-size: 15px !important;
 }
 #nav-bar1 ul > li {
-  padding-inline: 20px;
+  /* padding-inline: 20px; */
+  padding: 0 20px; /* Adjust the padding */
   font-size: 15px;
 }
 #nav-bar2 {
