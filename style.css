@@ -21,7 +21,7 @@ font-family: 'Poppins', sans-serif;
 }
 #nav-bar1 ul > li {
   /* padding-inline: 20px; */
-  padding: 0 20px; /* Adjust the padding */
+  padding: 0 15px; /* Adjust the padding */
   font-size: 15px;
   white-space: nowrap;
 }
