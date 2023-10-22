@@ -171,3 +171,6 @@ left:70px; */
   font-size: small;
   color: #BF4800; 
 }
+.hero-intro4 > div  {
+  border-bottom: 1px solid #7777d7 !important;
+}
