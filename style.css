@@ -34,7 +34,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #FBFBFD;
+  background-color: #fbfbfd;
 }
 #nav-bar2 div {
   padding-inline: 15px;
@@ -102,7 +102,8 @@ header {
   -webkit-background-clip: text;
   color: transparent;
 }
-.hero-text div > button,.hero-intro4 >div >button{
+.hero-text div > button,
+.hero-intro4 > div > button {
   border: none;
   background-color: #0071e3;
   color: white;
@@ -111,7 +112,8 @@ header {
   height: 24px;
   padding: 0px !important;
 }
-.hero-text div > button:hover,.hero-intro4 >div >button:hover {
+.hero-text div > button:hover,
+.hero-intro4 > div > button:hover {
   box-shadow: 0px 0px 20px #0071e3;
 }
 .hero-intro2 > .left-content > .hero-text > p > span {
@@ -142,7 +144,8 @@ left:70px; */
   padding-left: 40px;
 }
 .hero-intro3 .hero-text h2,
-.hero-text h4,.hero-text h3 {
+.hero-text h4,
+.hero-text h3 {
   text-align: left;
   color: white;
   font-weight: 600;
@@ -154,23 +157,24 @@ left:70px; */
 .hero-intro3 .hero-text > button:hover {
   box-shadow: 0px 0px 5px whitesmoke;
 }
-.hero-intro4{
-  display:flex;
+.hero-intro4 {
+  display: flex;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
-.hero-intro4>div>img{
-  width:120px;
+.hero-intro4 > div > img {
+  width: 120px;
 }
-.hero-intro4>div>p,.hero-intro4>div>h4{
+.hero-intro4 > div > p,
+.hero-intro4 > div > h4 {
   margin-bottom: 0px !important;
 }
-.hero-intro4>div>span{
+.hero-intro4 > div > span {
   font-size: small;
-  color: #BF4800; 
+  color: #bf4800;
 }
-.hero-intro4 > div  {
+.hero-intro4 > div {
   border-bottom: 1px solid #7777d7 !important;
 }
