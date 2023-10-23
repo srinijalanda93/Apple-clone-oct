@@ -178,3 +178,19 @@ left:70px; */
 .hero-intro4 > div {
   border-bottom: 1px solid #7777d7 !important;
 }
+.td-padding {
+  padding-inline: 38px;
+  padding-bottom: 20px;
+}
+table,tr,td{
+text-align: center;
+}
+td>p,td>h5{
+  margin-bottom: 0px;
+}
+td>h5{
+  font-weight: 600;
+}
+td>p{
+  margin-block: 2px;
+}
