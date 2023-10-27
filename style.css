@@ -353,8 +353,7 @@ box-shadow: 2px 1px 30px rgb(239, 234, 234);
   justify-content: space-around;
   align-items: center;
 }
-.Featured-text h2, .Featured-text p,
-.Featured-text span{
+.Featured-text h2,p,span{
 margin-bottom: 0px !important;
 text-align: center;
 }
@@ -377,5 +376,44 @@ text-align: center;
   color: #0066CC;
   display: flex;
   justify-content: center;
-  
 }
+.shop-access{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.shop-access>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shop-access>div h2,.shop-access>div p{
+  text-align: center;
+  margin-bottom:1px !important;
+}
+.iOS-16>div{
+  position:relative;
+}
+.iOS-16{
+  display: flex;
+  flex-direction: column;
+}
+.iOS-16>div>div{
+position: absolute;
+top:0.5%;
+left:45%;
+display: flex;
+flex-direction:column;
+}
+.iOS-16>div>div h2, p, a{
+margin-bottom:0.4px !important;
+text-align: center;
+  }
+  .iOS-16>div>div a{
+    text-decoration: none;
+    color: #0066CC;
+  }
+  .iOS-16>div:last-child{
+    
+  }
