@@ -394,26 +394,50 @@ text-align: center;
 }
 .iOS-16>div{
   position:relative;
+  border-radius: 3px;
+box-sizing: border-box !important;
+box-shadow: 2px 1px 30px rgb(205, 202, 202);
 }
 .iOS-16{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .iOS-16>div>div{
 position: absolute;
 top:0.5%;
-left:45%;
+left:40%;
 display: flex;
 flex-direction:column;
+
 }
+
 .iOS-16>div>div h2, p, a{
 margin-bottom:0.4px !important;
 text-align: center;
   }
-  .iOS-16>div>div a{
+  .iOS-16>div>div a,.iOS-16>div:last-child>a{
     text-decoration: none;
     color: #0066CC;
   }
   .iOS-16>div:last-child{
-    
+    width: 575px;
+height: 357px;
+background-color: #ffffff;
+border-radius: 3px;
+box-sizing: border-box !important;
+box-shadow: 2px 1px 30px rgb(205, 202, 202);
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+  }
+  .iOS-16>div:last-child>h3{
+    text-align: center;
+    letter-spacing: -1.23px;
+  }
+  .iOS-16>div:last-child>img{
+    width: 575px;
+height: 240px;
   }
